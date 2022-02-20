@@ -17,24 +17,21 @@
 </head>
 <body>
   <header class="bg-primary text-white">
-     <nav class="block md:flex items-center justify-between p-5">
-        <div>
-           <!-- <h1 class="text-4xl font-bold">
-                Sunnyside
-           </h1> -->
+     <nav class="block lg:flex items-center justify-between p-5">
+        <div class="flex lg:block items-center justify-between mb-5">
            <div>
-       <img src="/images/logo.svg" alt="">
+              <img src="/images/logo.svg" alt="">
 
            </div>
-           <div class="burger">
-
+           <div class="lg:hidden cursor-pointer" id="burger">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
            </div>
         </div>
-        <ul class="text-xl">
-           <li class="block md:inline-block md:mx-10"> About </li>
-           <li class="block md:inline-block md:mx-10">Services</li>
-           <li class="block md:inline-block md:mx-10">Projects</li>
-           <li class="block md:inline-block md:mx-10 btn font-bold">Contact</li>
+        <ul class="hidden lg:block bg-white text-secondary-400  lg:bg-transparent lg:text-white text-xl text-center lg:text-left p-10 lg:p-0" id="drop-down">
+           <li class="block my-8 lg:inline-block lg:mx-10 lg:my-0"> About </li>
+           <li class="block my-8 lg:inline-block lg:mx-10 lg:my-0">Services</li>
+           <li class="block my-8 lg:inline-block lg:mx-10 lg:my-0">Projects</li>
+           <li class="shadow inline-block my-5 lg:inline-block md:mx-10 md:my-0 btn font-bold">Contact</li>
         </ul>
      </nav>
      <section class="banner">
@@ -206,5 +203,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="/public/script.js"></script>
 </body>
 </html>
