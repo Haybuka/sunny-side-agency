@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply px-8 py-2 rounded-full bg-white text-black shadow;
+}
+
+.banner {
+    @apply relative bg-bottom bg-cover bg-no-repeat h-xl bg-banner-bg flex justify-center items-start pt-8;
+}
+
+.banner-h2{
+    @apply uppercase text-white text-3xl font-bold tracking-wider;
+}
+
+.banner-arrow{
+    @apply absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+.grid-item{
+    @apply p-12  col-span-2 flex justify-center items-center;
+}
+
+.grid-lead{
+    @apply text-2xl leading-10 font-bold text-secondary-400;
+}
+
+.grid-body{
+    @apply my-2 text-secondary-300 text-lg ;
+}
+
+.learn-more{
+    @apply text-lg font-bold text-center uppercase block;
+}

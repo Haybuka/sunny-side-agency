@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; display: none; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <header class="bg-primary text-white">
+     <nav class="block md:flex items-center justify-between p-5">
+        <div>
+           <!-- <h1 class="text-4xl font-bold">
+                Sunnyside
+           </h1> -->
+           <div>
+       <img src="/images/logo.svg" alt="">
+
+           </div>
+           <div class="burger">
+
+           </div>
+        </div>
+        <ul class="text-xl">
+           <li class="block md:inline-block md:mx-10"> About </li>
+           <li class="block md:inline-block md:mx-10">Services</li>
+           <li class="block md:inline-block md:mx-10">Projects</li>
+           <li class="block md:inline-block md:mx-10 btn font-bold">Contact</li>
+        </ul>
+     </nav>
+     <section class="banner">
+        <h2 class="banner-h2">We are Creatives</h2>
+         <div class="banner-arrow">
+            <img src="/images/icon-arrow-down.svg" alt="">
+         </div>
+      </section>
+  </header>
+<main>
+  <section class="grid grid-cols-2">
+      <article class="row-start-2 lg:row-start-1 grid-item lg:col-span-1 lg:p-24">
+       <div class="text-center lg:text-left">
+        <h3 class="grid-lead md:text-4xl ">Transform your brand</h3>
+
+        <p class="grid-body md:my-6 "> We are a full-service creative agency specializing in helping brands grow fast. 
+         Engage your clients through <br /> compelling visuals that do most of the marketing for you.</p>
+       
+         <a href="#" class="learn-more md:text-xl lg:text-left">Learn more</a>
+       </div>
+      </article>
+      <aside class="row-start-1 lg:row-start-1 col-span-2 lg:col-span-1">
+         <img src="/images/desktop/image-transform.jpg" alt="" class="w-full h-fullv">
+      </aside>
+  </section>
+  <section class="grid grid-cols-2">
+    <aside class="col-span-2 lg:col-span-1">
+       <img src="/images/desktop/image-stand-out.jpg" alt="" class="w-full h-fullv">
+    </aside>
+    <article class="grid-item lg:col-span-1 lg:p-24">
+      <div class="text-center lg:text-left">
+       <h3 class="grid-lead md:text-4xl ">Stand out to the right <br /> audience</h3>
+ 
+       <p class="grid-body my-4 md:my-6 ">
+         Using a collaborative formula of designers, researchers,<br /> photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+       </p>
+      
+        <a href="#" class="learn-more md:text-xl lg:text-left">Learn more</a>
+      </div>
+     </article>
+</section>
+<section class="block md:grid grid-cols-2">
+    <aside class="h-xl bg-secondary-900 flex items-end p-8 bg-graphic bg-top bg-cover bg-no-repeat">
+       <div class="text-secondary-600 text-center">
+          <h3 class="font-bold text-2xl mb-8">Graphic design</h3>
+          <p>
+  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+
+          </p>
+       </div>
+    </aside>
+    <aside class="h-xl bg-primary flex items-end p-8 bg-photography bg-top bg-cover bg-no-repeat">
+       <div class="text-secondary-500 text-center">
+          <h3 class="font-bold text-2xl mb-8">
+  Photography
+
+          </h3>
+          <p>
+  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+   
+          </p>
+       </div>
+    </aside>
+</section>
+<section class="testimonial p-16 md:p-8 lg:p-40 lg:px-32">
+  <h3 class="text-center mb-12 text-base lg:text-2xl uppercase tracking-widest text-secondary-200 font-bold ">Client testimonials </h3>
+  <aside class="block md:flex justify-between items-start">
+      <div class="text-center flex justify-center items-center flex-col">
+         <div class="h-20 w-20">
+            <img src="/images/image-emily.jpg" alt="" class="rounded-full w-full h-fullv">
+         </div>
+        <div class="card-body">
+          <p class="my-10 font-semibold text-secondary-300">
+            We put our trust in Sunnyside and they <br /> delivered, making sure our needs were met and deadlines were always hit.
+         </p>
+         <h4 class="my-2 font-bold text-secondary-400 text-xl">
+           Emily R.
+         </h4>
+         <span class="text-secondary-200">
+             Marketing Director
+         </span>
+
+        </div>
+      </div>
+      <div class="text-center flex justify-center my-16 md:mx-3 md:my-0 items-center flex-col">
+        <div class="h-20 w-20">
+           <img src="/images/image-thomas.jpg" alt="" class="rounded-full w-full h-fullv">
+        </div>
+       <div class="card-body">
+         <p class="my-10 font-semibold text-secondary-300">
+          Sunnyside’s enthusiasm coupled with their <br /> keen interest in our brand’s success made it a satisfying and enjoyable experience.
+
+        </p>
+        <h4 class="my-2 font-bold text-secondary-400 text-xl">
+          Thomas S.
+
+        </h4>
+        <span class="text-secondary-200">
+          Chief Operating Officer
+        </span>
+
+       </div>
+     </div>
+     <div class="text-center flex justify-center items-center flex-col">
+      <div class="h-20 w-20">
+         <img src="/images/image-jennie.jpg" alt="" class="rounded-full h-fullv w-full">
+      </div>
+     <div class="card-body">
+       <p class="my-10 font-semibold text-secondary-300">
+        Incredible end result! Our sales increased <br /> over 400% when we worked with Sunnyside. Highly recommended!
+      </p>
+      <h4 class="my-2 font-bold text-secondary-400 text-xl">
+       Jennie F.
+      </h4>
+      <span class="text-secondary-200">
+        Business Owner
+      </span>
+
+     </div>
+   </div>
+  </aside>
+</section>
+<section class="image-gallery grid md:flex">
+  <div class=" grid grid-cols-2" >
+    <img src="/images/desktop/image-gallery-milkbottles.jpg" alt="" class="w-full col-span-1">
+    <img src="/images/desktop/image-gallery-orange.jpg" alt="" class="w-full col-span-1">
+   
+  </div>
+  <div class="grid grid-cols-2">
+    <img src="/images/desktop/image-gallery-cone.jpg" alt="">
+    <img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="image">
+  </div>
+
+</section>
+</main>
+<footer class="py-16 flex justify-center items-center bg-secondary-901">
+     <aside class="text-center">
+      <div class="my-8 flex justify-center">
+        <img src="/images/desktop/logo.svg" alt="">
+      </div>
+       <ul class="flex text-secondary-600">
+         <li> About </li>
+         <li class="mx-10">Services</li>
+         <li>Projects</li>
+       </ul>
+       <ul class="flex text-secondary-600 my-12">
+        <li>
+          <img src="/images/icon-facebook.svg" alt="">
+        </li>
+        <li class="mx-10">
+          <img src="/images/icon-instagram.svg" alt="">
+        </li>
+        <li>
+          <img src="/images/icon-twitter.svg" alt="">
+        </li>
+        <li class="mx-10">
+          <img src="/images/icon-pinterest.svg" alt="">
+        </li>
+      </ul>
+     </aside>
+</footer>
+
+
+
+
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
