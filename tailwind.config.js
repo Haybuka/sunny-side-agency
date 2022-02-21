@@ -38,6 +38,10 @@ module.exports = {
           901 : '#90d4c5'
 
         }
+      },
+      fontFamily : {
+        primary :["'Barlow', sans-serif"],
+        secondary : ["'Fraunces', serif;"]
       }
     },
   },
